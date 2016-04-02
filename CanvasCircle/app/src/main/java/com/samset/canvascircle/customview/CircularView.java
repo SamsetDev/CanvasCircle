@@ -34,7 +34,7 @@ import android.view.accessibility.AccessibilityEvent;
 
 import com.samset.canvascircle.R;
 
-public class CompassView extends View {
+public class CircularView extends View {
 
     private Paint markerPaint;
     private Paint circlePaint;
@@ -51,17 +51,17 @@ public class CompassView extends View {
         return bearing;
     }
 
-    public CompassView(Context context) {
+    public CircularView(Context context) {
         super(context);
         initCompassView();
     }
 
-    public CompassView(Context context, AttributeSet attrs) {
+    public CircularView(Context context, AttributeSet attrs) {
         super(context, attrs);
         initCompassView();
     }
 
-    public CompassView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CircularView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initCompassView();
     }

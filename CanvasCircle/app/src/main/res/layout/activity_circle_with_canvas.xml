@@ -6,7 +6,7 @@
     tools:context="com.samset.canvascircle.CircleWithCanvas">
 
 
-    <com.samset.canvascircle.customview.CompassView
+    <com.samset.canvascircle.customview.CircularView
         android:id="@+id/cmp"
         android:layout_width="300dp"
         android:layout_height="300dp"

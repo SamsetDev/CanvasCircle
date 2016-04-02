@@ -17,15 +17,10 @@
 package com.samset.canvascircle;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
-
-import com.samset.canvascircle.customview.CompassView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
    private Button btnCanvas,btnBitmap;

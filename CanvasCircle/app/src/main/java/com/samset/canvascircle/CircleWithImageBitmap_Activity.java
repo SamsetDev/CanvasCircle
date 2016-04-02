@@ -22,12 +22,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-import com.samset.canvascircle.customview.CompassView;
+import com.samset.canvascircle.customview.CircularView;
 
 public class CircleWithImageBitmap_Activity extends AppCompatActivity {
 
     private Bitmap bitmap,mybit;
-    private CompassView compassView;
+    private CircularView compassView;
     private ImageView imageView;
 
     @Override
@@ -36,8 +36,8 @@ public class CircleWithImageBitmap_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_circle_with_image_bitmap_);
 
         imageView= (ImageView) findViewById(R.id.img);
-        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.news);
-        compassView=new CompassView(this);
+        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.ic_image);
+        compassView=new CircularView(this);
         mybit=compassView.getCircularBitmap(bitmap);
 
         imageView.setImageBitmap(mybit);
